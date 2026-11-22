@@ -1,0 +1,27 @@
+{
+  "author": "Riko",
+  "id": "com.riko.antigravity-usage",
+  "name": "Antigravity Usage",
+  "description": "Remaining Antigravity usage quota, read from the local usage server (localhost:8787).",
+  "version": "1.2.0",
+  "preview_icon": "resources/icon.svg",
+  "min_app_version": "5.52",
+  "min_framework_version": "1.9.0",
+  "os": [
+    {
+      "platform": "windows"
+    }
+  ],
+  "supported_devices": [
+    {
+      "type": "dashboard_lcd"
+    }
+  ],
+  "permissions": [
+    {
+      "type": "url",
+      "domain": "localhost",
+      "port": 8787
+    }
+  ]
+}

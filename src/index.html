@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>'{{TITLE}}'</title>
+<link rel="icon" href="resources/icon.svg" />
+<meta name="x-icue-restrictions" data-restrictions='[{ "device": "dashboard_lcd" }]' />
+<link rel="stylesheet" href="styles/widget.css" />
+</head>
+<body data-provider="{{PROVIDER}}">
+<div id="app">
+  <div class="top">
+    <div class="brand">
+      <img class="logo" src="{{LOGO}}" alt="" />
+      <b>{{BRAND}}</b><span class="what">โควตาคงเหลือ</span><span id="plan" class="plan" hidden></span>
+    </div>
+    <div id="status"><span class="dot"></span>กำลังโหลด…</div>
+  </div>
+  <div class="body">
+    <section id="hero"></section>
+    <section id="trend"></section>
+    <section id="side"></section>
+  </div>
+</div>
+<script src="scripts/widget.js"></script>
+</body>
+</html>
